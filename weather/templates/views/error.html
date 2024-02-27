@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactMe Page - HanifProjects.com</title>
+    <link rel="stylesheet" href="{% static 'error.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </head>
+  <body>
+    <div class="navBarDiv">
+      <ul>
+        <a href="/weather"><li><b>Home</b></li></a>
+        <a href="/weather/about"><li><b>About Me</b></li></a>
+        <a href="/weather/blog"><li><b>Blog</b></li></a>
+        <a href="/weather/contact"><li><b>Contact Me</b></li></a>
+      </ul>
+    </div>
+    <div class="row">
+        <div class="col s12 m10 l10 push-m1 push-l1 top">
+          <div class="card">
+          <div class="card-image">
+            <img src="{% static 'img/error.png' %}" alt="Error Page Of Contact Form">
+          </div>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
